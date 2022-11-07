@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <>
       <nav className='navbar'>
-        <h3>Our Project</h3>
+        <h3>edgexgame</h3>
         <ul>
           <li>
             <Link to='/' className='nav-link'>

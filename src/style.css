@@ -15,9 +15,10 @@ body {
 .navbar h3 {
   justify-self: flex-start;
   margin: 1.5rem;
-  color: white;
-  font-size: 1.5rem;
+  color: rgb(98, 214, 52);
+  font-size: 2.5rem;
   font-weight: 600;
+  align-self: center;
 }
 
 ul li {
@@ -63,7 +64,10 @@ ul {
 .btn-container {
   margin: 2rem;
 }
-
+.btn-buy {
+  text-decoration: none;
+  display: inline-block;
+}
 .btn {
   padding: 0.75rem 1rem;
   border-radius: 10px;
@@ -73,7 +77,9 @@ ul {
   font-size: 1.1rem;
   margin-top: 1.2rem;
   background-color: #ef0947;
+  text-align: center;
   color: white;
+  box-sizing: border-box;
 }
 
 .main-page {
@@ -133,17 +139,20 @@ ul {
   /* object-fit: cover; */
 }
 .about-us {
-  max-width: 800px;
+  max-width: 700px;
   margin: 0 auto;
   color: white;
 }
 .main-vision {
-  margin-top: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 .main-vision h2 {
   text-align: center;
   font-size: 4rem;
   font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 .main-vision p {
   text-align: justify;
@@ -151,7 +160,7 @@ ul {
   font-weight: 300;
 }
 .member-img img {
-  height: 200px;
+  height: 180px;
   width: 100%;
   border-radius: 10px;
   border-bottom-left-radius: 0;
@@ -159,7 +168,7 @@ ul {
 }
 .team-member {
   /* padding: 1rem; */
-  height: 300px;
+  height: 280px;
   /* width: 25%; */
   background-color: #ef0947;
   border-radius: 10px;
@@ -170,7 +179,7 @@ ul {
   text-align: center;
 }
 .team {
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
@@ -193,4 +202,7 @@ ul {
   object-fit: cover;
   display: block;
   margin-bottom: 0;
+}
+.main-para p {
+  font-size: 1.75rem;
 }

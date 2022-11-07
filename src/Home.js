@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 // import './style.css';
 const Home = () => {
   return (
@@ -14,20 +15,20 @@ const Home = () => {
           </div>
           <div className='main-para'>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-              suscipit tenetur veritatis sequi cum iure. Autem similique,
-              consequatur ex rerum, sed aut inventore reprehenderit quis
-              repellendus dicta cupiditate, commodi explicabo maxime quia
-              consequuntur quod placeat et. Fuga, quasi fugit architecto
-              assumenda nesciunt numquam similique adipisci suscipit eligendi
-              aut perspiciatis ducimus unde pariatur a sunt culpa delectus eaque
-              natus sequi in alias facere excepturi omnis! Rem sequi adipisci
-              accusamus sapiente dicta.
+              At edgeXgame we are building a game collectable NFT marketplace
+              with NFT based monthly subscription model. Players will be able to
+              buy, sell and trade their digital collectables on our platform.
+              These collectables are unique and cannot be replicated or
+              destroyed.
             </p>
           </div>
           <div className='btn-container'>
-            <button className='btn btn-buy'>Explore</button>
-            <button className='btn btn-buy'>Our Team</button>
+            <Link to='/buy' className='btn btn-buy'>
+              Explore
+            </Link>
+            <Link to='/aboutus' className='btn btn-buy'>
+              Our Team
+            </Link>
           </div>
         </div>
         <div className='main-images'>
