@@ -32,21 +32,8 @@ const Home = () => {
         </div>
         <div className='main-images'>
           <div className='main-images-1'>
-            <img
-              src='https://static.vecteezy.com/system/resources/thumbnails/002/144/780/small/gaming-banner-for-games-with-glitch-effect-neon-light-on-text-illustration-design-free-vector.jpg'
-              alt=''
-              className='img-main'
-            />
-            <img
-              src='https://static.vecteezy.com/system/resources/thumbnails/002/144/780/small/gaming-banner-for-games-with-glitch-effect-neon-light-on-text-illustration-design-free-vector.jpg'
-              alt=''
-              className='img-main'
-            />
-            <img
-              src='https://static.vecteezy.com/system/resources/thumbnails/002/144/780/small/gaming-banner-for-games-with-glitch-effect-neon-light-on-text-illustration-design-free-vector.jpg'
-              alt=''
-              className='img-main'
-            />
+            <img src='./images/nft_bg_1 (1).jpeg' alt='' className='img-main' />
+            <img src='./images/nft_2_bg (1).jpg' alt='' className='img-main' />
           </div>
         </div>
       </div>

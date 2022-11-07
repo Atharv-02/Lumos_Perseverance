@@ -184,3 +184,13 @@ ul {
 .game-btn {
   width: 150px;
 }
+.main-images {
+  margin-bottom: 0;
+}
+.main-images img {
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 0;
+}
