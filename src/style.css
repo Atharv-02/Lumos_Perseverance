@@ -2,36 +2,19 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
+}
+
+.root {
   background-color: black;
 }
 
 .navbar {
-  background-color: #673ba6;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-}
-
-.navbar h3 {
-  justify-self: flex-start;
-  margin: 1.5rem;
-  color: rgb(98, 214, 52);
-  font-size: 2.5rem;
-  font-weight: 600;
-  align-self: center;
-}
-
-ul li {
-  list-style-type: none;
-  margin: 1.5rem;
-}
-
-ul {
-  margin: 0;
+  background-color: #b14af5;
+  height: 6.5rem;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  color: white;
-  font-size: 1.2rem;
 }
 
 .main-heading {
@@ -44,6 +27,13 @@ ul {
 .main-heading h2 {
   font-weight: 350;
   letter-spacing: 2px;
+  color: pink;
+}
+
+.main-heading span {
+  font-weight: 350;
+  letter-spacing: 2px;
+  color: rgb(166, 255, 0);
 }
 
 .main-content {
@@ -62,35 +52,51 @@ ul {
 }
 
 .btn-container {
-  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  margin-left: 1.9rem;
 }
-.btn-buy {
+/* .btn-buy {
   text-decoration: none;
   display: inline-block;
-}
+} */
 .btn {
-  padding: 0.75rem 1rem;
-  border-radius: 10px;
-  width: 200px;
-  margin-right: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 100px;
   border: none;
-  font-size: 1.1rem;
-  margin-top: 1.2rem;
-  background-color: #ef0947;
+  font-size: 1.05rem;
+  background-color: #ffffff70;
   text-align: center;
-  color: white;
-  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: all 0.5s linear;
+
+  -webkit-box-shadow: 10px 15px 26px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 15px 26px 4px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+.btn:hover {
+  -webkit-box-shadow: 10px 15px 29px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 15px 29px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: none;
+}
+
+.btn_connect_wallet {
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.05rem;
+  background-color: #ff0000;
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 .main-page {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.img-main {
-  display: block;
-  margin: 1.75rem;
-  border-radius: 5px;
+  display: flex;
+  background-color: black;
 }
 
 .main-images {
@@ -98,12 +104,13 @@ ul {
 }
 
 .btn-menu {
-  width: 100px;
+  width: auto;
+  background-color: rgb(250, 74, 142);
 }
 
 .items-btn-container {
   text-align: center;
-  margin: 2rem 0;
+  padding: 1rem;
 }
 
 .btn-menu {
@@ -118,7 +125,7 @@ ul {
 }
 .nav-link {
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .game {
   display: flex;
@@ -139,19 +146,26 @@ ul {
   /* object-fit: cover; */
 }
 .about-us {
-  max-width: 700px;
-  margin: 0 auto;
   color: white;
+  background-color: black;
+  padding-bottom: 4rem;
 }
+
+.content_aboutus {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .main-vision {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   margin-bottom: 2rem;
 }
 .main-vision h2 {
   text-align: center;
   font-size: 4rem;
   font-weight: 400;
-  margin-top: 1rem;
+  padding-top: 1rem;
   margin-bottom: 1.5rem;
 }
 .main-vision p {
@@ -205,4 +219,79 @@ ul {
 }
 .main-para p {
   font-size: 1.75rem;
+}
+
+.games-list {
+  display: flex;
+  align-items: center;
+}
+
+.buy-page {
+  background-color: black;
+}
+
+.card_img {
+  height: 250px;
+  width: 400px;
+}
+
+.logo {
+  height: 8rem;
+  width: 8rem;
+  /* margin-left: 0.5rem; */
+}
+
+.chakra-card__body {
+  background-color: rgba(255, 0, 200, 0.575);
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.chakra-card__footer {
+  background-color: rgba(255, 0, 200, 0.575);
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.right_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.images{
+  display: flex;
+  margin-top: 2.5rem;
+  margin-right: 2.5rem;
+  /* justify-content: space-between; */
+  width: 80%;
+}
+
+.imgl{
+ margin: 0%;
+ width: 100%;
+ height: 45%;
+}
+
+.imgm{
+  margin: 0;
+  width: 100%;
+  height: 90%;
+}
+
+.imgr{
+  margin: 0%;
+  width: 100%;
+  height: 30%;
+}
+
+.btnhome{
+  background-color: goldenrod;
 }
