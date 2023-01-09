@@ -110,7 +110,7 @@ body {
 
 .btn-menu {
   width: auto;
-  background-color: rgba(197, 252, 0, 0.76);
+  background-color: #ddd900cc;
 }
 
 .items-btn-container {
@@ -250,7 +250,7 @@ body {
 }
 
 .chakra-card__body {
-  background-color: rgba(197, 252, 0, 0.603);
+  background-color: #bebb00cc;
   margin-right: 0.5rem;
   margin-left: 0.5rem;
   margin-top: 1rem;
@@ -259,7 +259,7 @@ body {
 }
 
 .chakra-card__footer {
-  background-color: rgba(197, 252, 0, 0.603);
+  background-color: #bebb00cc;
   margin-right: 0.5rem;
   margin-left: 0.5rem;
   margin-bottom: 1rem;
