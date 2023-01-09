@@ -29,7 +29,8 @@ const Navbar = () => {
         <Link to="/" className="nav-link">
           <img
             className="logo"
-            src={require("./edgeXgame-logos_transparent.png")}
+            // src={require("./edgeXgame-logos_transparent.png")}
+            src="./images/edgeXgame-logos_white.png"
             alt=""
           />
           </Link>
