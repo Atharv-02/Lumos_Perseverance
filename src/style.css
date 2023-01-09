@@ -10,8 +10,8 @@ body {
 }
 
 .navbar {
-  background-color: #b14af5;
-  height: 6.5rem;
+  background-color: #162c1bf8;
+  height: 7.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,6 +36,7 @@ body {
   color: rgb(166, 255, 0);
 }
 
+
 .main-content {
   max-width: 45vw;
 }
@@ -46,9 +47,9 @@ body {
 
 .main-content p {
   margin: 2rem;
-  font-size: 1.2rem;
-  text-align: justify;
-  letter-spacing: 1.5px;
+  margin-bottom: 1rem;
+  /* text-align: justify; */
+  letter-spacing: 1px;
 }
 
 .btn-container {
@@ -67,7 +68,7 @@ body {
   border-radius: 100px;
   border: none;
   font-size: 1.05rem;
-  background-color: #ffffff70;
+  background-color: #ffffffb2;
   text-align: center;
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -89,7 +90,7 @@ body {
   border-radius: 10px;
   border: none;
   font-size: 1.05rem;
-  background-color: #ff0000;
+  background-color: #ff4a4a;
   text-align: center;
   color: rgb(0, 0, 0);
 }
@@ -97,6 +98,10 @@ body {
 .main-page {
   display: flex;
   background-color: black;
+  background-image: url(../public/images/edgexgame_back.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding-bottom: 2rem;
 }
 
 .main-images {
@@ -105,7 +110,7 @@ body {
 
 .btn-menu {
   width: auto;
-  background-color: rgb(250, 74, 142);
+  background-color: rgba(197, 252, 0, 0.76);
 }
 
 .items-btn-container {
@@ -147,12 +152,14 @@ body {
 }
 .about-us {
   color: white;
-  background-color: black;
+  /* background-color: black; */
+  background-image: url(../public/images/edgexgame_back.jpg);
+  background-size: cover;
   padding-bottom: 4rem;
 }
 
 .content_aboutus {
-  max-width: 40rem;
+  max-width: 50rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -170,7 +177,7 @@ body {
 }
 .main-vision p {
   text-align: justify;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   font-weight: 300;
 }
 .member-img img {
@@ -182,8 +189,8 @@ body {
 }
 .team-member {
   /* padding: 1rem; */
-  height: 280px;
-  /* width: 25%; */
+  height: 15rem;
+  width: 11.5rem;
   background-color: #ef0947;
   border-radius: 10px;
 }
@@ -193,11 +200,10 @@ body {
   text-align: center;
 }
 .team {
+  width: 100%;
   margin-top: 2rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
 }
 .game-text h3 {
   font-size: 2rem;
@@ -218,7 +224,7 @@ body {
   margin-bottom: 0;
 }
 .main-para p {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 
 .games-list {
@@ -227,7 +233,9 @@ body {
 }
 
 .buy-page {
-  background-color: black;
+  /* background-color: black; */
+  background-image: url(../public/images/edgexgame_back.jpg);
+  background-size: cover;
 }
 
 .card_img {
@@ -236,13 +244,13 @@ body {
 }
 
 .logo {
-  height: 8rem;
-  width: 8rem;
+  height: 9.5rem;
+  width: 9.5rem;
   /* margin-left: 0.5rem; */
 }
 
 .chakra-card__body {
-  background-color: rgba(255, 0, 200, 0.575);
+  background-color: rgba(197, 252, 0, 0.603);
   margin-right: 0.5rem;
   margin-left: 0.5rem;
   margin-top: 1rem;
@@ -251,7 +259,7 @@ body {
 }
 
 .chakra-card__footer {
-  background-color: rgba(255, 0, 200, 0.575);
+  background-color: rgba(197, 252, 0, 0.603);
   margin-right: 0.5rem;
   margin-left: 0.5rem;
   margin-bottom: 1rem;
@@ -294,4 +302,13 @@ body {
 
 .btnhome{
   background-color: goldenrod;
+}
+
+.aboutus_h2{
+  color: #00ff95;
+}
+
+.img-main{
+  padding: 0.2rem;
+  border-radius: 1rem;
 }
